@@ -1,1 +1,1 @@
-console.log('Hello Gichelle')
+import * as codewars from './codewars/codewars.js';
