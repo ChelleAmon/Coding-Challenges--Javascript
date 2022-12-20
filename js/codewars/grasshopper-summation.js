@@ -11,6 +11,7 @@
 
 // Date completed: 12/20/2022
 
+/** First solution: START **************************************************************** */
 var summation = function (num) {
     return [...Array(num).keys()].map(num => num + 1).reduce((acc, curr) => acc + curr)
 }
@@ -18,6 +19,19 @@ var summation = function (num) {
 console.log(summation(1))
 console.log(summation(3))
 console.log(summation(8))
+/** First solution: END **************************************************************** */
 
+/** Second solution: START **************************************************************** */
 
-export { summation };
+function getSum(num){
+    if(num > 0){
+        return num + summation(num - 1)
+    } else {
+        return num
+    }
+}
+console.log(getSum(1))
+console.log(getSum(3))
+console.log(getSum(8))
+
+export { summation, getSum };
