@@ -25,7 +25,7 @@ console.log(summation(8))
 
 function getSum(num){
     if(num > 0){
-        return num + summation(num - 1)
+        return num + getSum(num - 1)
     } else {
         return num
     }
@@ -33,5 +33,8 @@ function getSum(num){
 console.log(getSum(1))
 console.log(getSum(3))
 console.log(getSum(8))
+
+/** Second solution: FINISH **************************************************************** */
+
 
 export { summation, getSum };
