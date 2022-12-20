@@ -1,3 +1,13 @@
-import testing from './titlecase.js';
+// import functions 
+import titleCase from './titlecase.js';
+import productFib from './product-of-consecutive-fib-numbers.js';
 
-testing('Gichelle Amon')
+
+
+
+
+
+
+// Call functions
+titleCase();
+productFib();
