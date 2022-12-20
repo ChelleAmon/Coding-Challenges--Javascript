@@ -40,6 +40,9 @@
 // Note:
 // You can see examples for your language in "Sample Tests".
 
+// Link: https://www.codewars.com/kata/5541f58a944b85ce6d00006a
+
+
 // DATE Completed: 12/20/2022
 
 function productFib(prod){
@@ -70,5 +73,6 @@ function productFib(prod){
 
   console.log(productFib(714));
   console.log(productFib(800));
+  
   export default productFib;
   
